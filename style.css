@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(84, 41, 29);
+}
+
+.timerBtn {
+    width: 150px;
+    height: 50px;
+    border: 3px solid;
+    border-radius: 12px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto 50px;
+    font-size: 25px;
+    margin: 10px;
+
+}
+.timerBtn:hover {
+    background-color: rgb(40, 85, 123);
+    transition-property: all;
+    transition-duration: 350ms;
+
+}
+
+#timeDisplay {
+    font-size: 75px;
+    color: rgb(24, 128, 220);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#timeContainer {
+    text-align: center;
+    border: 3px solid;
+    border-radius: 25px;
+    background-color: #222;
+}
